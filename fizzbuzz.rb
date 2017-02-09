@@ -1,17 +1,16 @@
 
 def fizzbuzz(int)
-  
   if (int % 3 ==0) && (int % 5 == 0)
-      return "FizzBuzz"
-  elsif int % 3 == 0 # if the number int is divisible by 3
+      return "FizzBuzz"# if the number int is divisible by 3
+  elsif int % 3 == 0
       return "Fizz" # Go fizz
   elsif int % 5 == 0
-    return "Buzz"
-  elsif int == ""
+      return "Buzz"
+  else
       return nil
   end
 end
-puts fizzbuzz(3)
-puts fizzbuzz(5)
-puts fizzbuzz(15)
-puts fizzbuzz(4)
+fizzbuzz(3)
+fizzbuzz(5)
+fizzbuzz(15)
+fizzbuzz(4)
