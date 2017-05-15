@@ -1,10 +1,10 @@
 def fizzbuzz(num)
-  if (3%num == 0)
-    "Fizz"
-  elsif (5%num == 0)
-    "Buzz"
-  elsif (15%num == 0)
+  if (num%3 == 0 && num%5 == 0)
     "FizzBuzz"
+  elsif (num%3 == 0)
+    "Fizz"
+  elsif (num%5 == 0)
+    "Buzz"
   else
     nil
   end
