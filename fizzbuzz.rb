@@ -6,5 +6,5 @@ def fizzbuzz(num)
   if(num % 5 == 0)
     out += "Buzz"
   end
-  puts out
+  return out
 end
