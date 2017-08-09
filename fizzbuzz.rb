@@ -1,10 +1,13 @@
-def fizzbuzz(num)
+def fizzbuzz(int)
   out = ""
-  if(num % 3 == 0)
+  if(int % 3 == 0)
     out += "Fizz"
   end
-  if(num % 5 == 0)
+  if(int % 5 == 0)
     out += "Buzz"
+  end
+  if(out == "")
+    out = nil
   end
   return out
 end
