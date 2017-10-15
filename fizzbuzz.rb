@@ -1,15 +1,12 @@
 def fizzbuzz(int)
   msg = ""
-  found = false
-  if (int % 3 == 0)
-    found = true
+  if int % 3 == 0
     msg += "Fizz"
   end
-  if (int % 5 == 0)
-    found = true
+  if int % 5 == 0
     msg += "Buzz"
   end
-  if found
+  if msg.size > 0
     return msg
   else
     return nil
