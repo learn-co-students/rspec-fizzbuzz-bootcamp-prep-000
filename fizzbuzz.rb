@@ -1,8 +1,11 @@
 def fizzbuzz(n)
+  if n % 3 == 0 && n % 5 == 0
+    return "FizzBuzz"
+  end 
   if n % 3 == 0 
-    puts "Fizz"
-  if n % 5 == 0 
-    puts "Buzz"
-  if n % 3 && n % 5 == 0 
-    puts "FizzBuzz"
+    return "Fizz"
+  end 
+  if n % 5 == 0
+    return "Buzz"
+  end 
 end 
