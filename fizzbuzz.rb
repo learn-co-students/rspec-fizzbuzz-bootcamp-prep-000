@@ -16,7 +16,7 @@ def fizzbuzz(int)
   
    puts "FizzBuzz"
    
- else
+ else (!(int % 3 == 0) && (int % 5 == 0))
    
    puts "nil"
     
@@ -28,6 +28,6 @@ end
 fizzbuzz(3)
 fizzbuzz(5)
 fizzbuzz(15)
-fizzbuzz()
+fizzbuzz(4)
 
 
