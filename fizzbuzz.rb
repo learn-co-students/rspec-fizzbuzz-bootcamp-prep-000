@@ -3,16 +3,15 @@
 
 require_relative './spec_helper.rb'
 
-def fizzbuzz(i)
-  if i % 3 && 5 == 0
-    "fizzbuzz"
-  elsif
-    i % 3 == 0
-    "fizz"
-  elsif
-    i % 5 == 0
-    "buzz"
-    elsif
-    "nil"
+def fizzbuzz(any)
+  if any % 3 == 0 && any % 5 == 0
+      val="FizzBuzz"
+    elsif any % 3 == 0
+        val="Fizz"
+      elsif any % 5 == 0
+          val="Buzz"
+    else
+      puts "Not divisible by 3 or 5"
+  end 
   
-  end  
+end
