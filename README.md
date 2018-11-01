@@ -6,8 +6,8 @@
 
 # A Note on This Guide
 
-We've been introduced to the concepts of test driven development and reading and understanding RSpec tests before.
 
+We've been introduced to the concepts of test driven development and reading and understanding RSpec tests before.
 Every time you run `learn` to run a lab's tests, you are running an RSpec test suite - that's how we build labs on Learn.
 
 You've been reading these tests for a while now, but TDD is a big topic and we're going to take a closer look at it here.
