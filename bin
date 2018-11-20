@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require_relative './fizzbuzz'
+
+puts "Introduceti un numar!"
+
+asd = gets.strip.to_i
+fizzbuzz(asd)
