@@ -324,7 +324,7 @@ Our `rspec` output continues with a summary of each individual failure:
 
 ```
 Failures:
-
+w
   1) fizzbuzz returns "Fizz" when the number is divisible by 3
      Failure/Error: fizz_3 = fizzbuzz(3)
 
