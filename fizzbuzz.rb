@@ -25,8 +25,8 @@ def fizzbuzz(number)?
   
     put "FizzBuzz"
     
-   else
-
+  else
+    
     number % 15 != 0
     
     put "nil"
