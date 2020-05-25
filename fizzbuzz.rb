@@ -5,33 +5,29 @@
 #When I call that method and pass it a number divisible by 3 and 5, that method should return the string "FizzBuzz".
 #When I call that method and pass it a number not divisible by 3 or 5, that method should return nil.
 
-def fizzbuzz(number)
+def fizzbuzz(number)?
   
   if
     
-    number / 3 == x
-    x.is_a?(Interger)=>true
+    number % 3 == 0 
     
     put "Fizz"
   
   elsif
 
-    number / 5 == x
-    x.is_a?(Interger)=>true
+    number % 5 == 0 
     
     put "Buzz"
     
   elsif
 
-    number / 15 == x
-    x.is_a?(Interger)=>true
-    
+    number % 15 == 0 
+  
     put "FizzBuzz"
     
    else
 
-    number / 15 == x
-    x.is_a?(Interger)=>false
+    number % 15 != 0
     
     put "nil"
    
